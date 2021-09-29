@@ -28,14 +28,17 @@ ul {
 
 li {
     float: left;
-    }
-
-li a {
     display: block;
-    color: white;
+    color: #575757;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    }
+
+li a {
+    text-decoration: none;
+    color: white;
+
 }
 
 /* Change the link color to #111 (black) on hover */
