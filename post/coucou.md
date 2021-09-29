@@ -1,8 +1,8 @@
 ---
 layout: root.html
 tags: posts
-title: C'est parti pour mon blog !!!
+title: Mon blog simplon/simplet
 
 ---
 
-Blablabla...
+mon blog raconte plein de supers trucs...

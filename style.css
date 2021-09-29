@@ -1,4 +1,83 @@
-body{
-    background-color: #5e86ce;
+body {
+    color: #000000;
+    background-color:white;
     font-family: Verdana;
+    background-image: url("/assets/image/fond.jpg");
+    margin: 15%;
+    margin-top: 5%;
+
+}
+header{
+    font-size: 1.6rem;
+    line-height: 1.875;
+    color: #577bb6;
+    font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+    position: relative;
+    background: #151e2d;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+main{
+    font-size: 1rem;
+    line-height: 1.875;
+    color: #ffffff;
+    font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+    position: relative;
+    background-color: #282828;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+img{
+    filter: brightness(50%);
+}
+
+nav{
+}
+
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5f3232;
+    align-items: center;
+    text-align: center;
+}
+
+.div-article-header{
+    color: chocolate;
+
+}
+a{
+    color: #ffffff;
+    text-align: center;
 }
