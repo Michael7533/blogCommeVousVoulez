@@ -59,11 +59,24 @@ main{
 
 }
 
+p{
+    margin-top: 5px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
 img{
     filter: brightness(50%);
 }
 
 nav{
+    vertical-align: auto;
+}
+
+article{
+    background-color: #575757;
 }
 
 ol{
@@ -71,7 +84,7 @@ ol{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5f3232;
+    background-color: #32435f;
     align-items: center;
     text-align: center;
 }
@@ -84,3 +97,83 @@ a{
     color: #ffffff;
     text-align: center;
 }
+ @media all and (max-width: 800px){
+
+     li a{
+         font-size: 15px;
+     }
+
+     li{
+         text-align: center;
+         text-decoration: none;
+         display: flex;
+         padding-right: 5%;
+         padding-left: 5%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     h1{
+         font-size: 30px;
+         text-align: center;
+     }
+     main{
+         font-size: 15px;
+         line-height: 1.875;
+         color: #ffffff;
+         font-family: "Unica77-LL-TT",Helvetica,Arial,sans-serif;
+         position: relative;
+         background-color: #282828;
+         padding-left: 5px;
+         padding-right: 5px;
+         opacity: 0.75;
+         border-radius: 20PX;
+     }
+
+     header{
+     }
+
+     body {
+         color: #000000;
+         background-color:white;
+         font-family: Verdana;
+         background-image: url("/assets/image/fondphone.jpg");
+         background-size: 800px;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         margin: 5%;
+     }
+
+     .div-article-header{
+         color: chocolate;
+         font-size: 0.9rem;
+     }
+
+     article{
+         opacity: 0.75;
+         border-radius: 20PX;
+     }
+
+     #nav-blog{
+
+       vertical-align: auto;
+
+     }
+
+     p{
+         color: #ffffff;
+         font-size: 1rem;
+     }
+
+     nav{
+         display: block;
+         child-align: middle;
+         vertical-align: auto;
+
+     }
+
+     ol{
+         display: flex;
+         margin: auto;
+     }
+
+ }

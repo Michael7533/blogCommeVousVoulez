@@ -7,7 +7,7 @@ permalink: /
 
 # page d'accueil
 
-bonjour et bienvenue sur le super blog.
+bonjour et bienvenue sur le super blog optimisé pour mobiles (car personne n'a envie de voir ça chez lui)
 
 Il y a plein d'articles super chouettes.
 
